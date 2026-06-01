@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  width: 700px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  color: gray;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tasks {
+  margin-top: 30px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #10b981;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+}
